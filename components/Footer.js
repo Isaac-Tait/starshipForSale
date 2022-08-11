@@ -26,12 +26,12 @@ const Footer = () => {
             </a>{' '}
             &&&nbsp;
             <a
-              href="https://ghost.org/"
+              href="https://www.discourse.org/"
               className="text-indigo-500 hover:text-lime-400"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Ghost
+              Discourse
             </a>
             .
           </p>

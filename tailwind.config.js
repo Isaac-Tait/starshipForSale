@@ -16,9 +16,11 @@ module.exports = {
     heroPatterns: {
       topography: heroPatterns.topography,
       bubbles: heroPatterns.bubbles,
-      leaf: heroPatterns.leaf,
+      wiggle: heroPatterns.wiggle,
     },
     extend: {},
   },
   plugins: [require('tailwindcss-hero-patterns')],
 };
+
+//https://heropatterns.com/
