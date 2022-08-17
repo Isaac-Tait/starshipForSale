@@ -22,6 +22,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@giscus/react": "^2.2.0",
     "@tryghost/admin-api": "^1.13.0",
     "@tryghost/content-api": "^1.10.0",
     "next": "^12.2.4",

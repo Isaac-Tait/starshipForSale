@@ -1,8 +1,9 @@
+import Comments from '../components/Comments';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 const Index = () => (
-  <div className="heropattern-wiggle-neutral-100 h-screen">
+  <div className="heropattern-wiggle-neutral-100 h-screen overflow-y-scroll">
     <div>
       <Header />
     </div>
@@ -23,11 +24,18 @@ const Index = () => (
     </div>
 
     <div className="text-center pt-8">
-      <p>
+      <p className="pb-8">
         Welcome to a fan site for the book series: Starship For Sale by{' '}
         <span className="font-semibold italic">M.R. Forbes</span>
       </p>
     </div>
+
+    <hr />
+
+    <div className="w-4/5 mx-auto pt-10">
+      <Comments />
+    </div>
+
     <div className="fixed bottom-0 w-full">
       <Footer />
     </div>
