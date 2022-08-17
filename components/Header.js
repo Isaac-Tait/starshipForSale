@@ -1,10 +1,19 @@
+import Image from 'next/image';
 import Link from 'next/link';
-
+import starship from '../public/starship.png';
 const Header = () => {
   return (
     <div className="grid grid-cols-2">
-      <div>
-        <h1 className="text-3xl font-semibold">Starship For Sale</h1>
+      <div className="w-1/3 pl-2 pt-2 flex flex-row">
+        <Image
+          alt="starship for sale"
+          src={starship}
+          width={150}
+          height={150}
+        />
+        <div className='my-auto pl-4'>
+          <h1 className="text-3xl font-semibold text-center">For Sale</h1>
+        </div>
       </div>
       <div className="flex justify-end mr-2 space-x-4 text-xs italic">
         <Link
