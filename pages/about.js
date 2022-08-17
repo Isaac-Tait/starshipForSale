@@ -1,10 +1,10 @@
 import Footer from '../components/Footer';
-import Header from '../components/Header';
+import PageHeader from '../components/PageHeader';
 
 const About = () => (
   <div className="heropattern-wiggle-neutral-100 h-screen">
     <div>
-      <Header />
+      <PageHeader />
     </div>
     <div className="max-w-6xl mx-auto bg-slate-200 rounded-xl">
       <p className="pl-1">To be continued...</p>
