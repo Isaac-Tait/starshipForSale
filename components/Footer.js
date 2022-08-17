@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         <div className="mt-2 flex justify-center w-1/3">
           <a
-            href="https://github.com/Isaac-Tait/"
+            href="https://github.com/Isaac-Tait/starshipForSale"
             target="_blank"
             rel="noopener noreferrer"
           >
