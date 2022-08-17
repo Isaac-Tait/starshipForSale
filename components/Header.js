@@ -29,9 +29,7 @@ const Header = () => {
           href="https://starshipfor.sale/about"
           className="text-red-400 hover:underline hover:text-yellow-600"
         >
-          <a target="_blank" rel="noopener noreferrer">
-            About
-          </a>
+          <a>About</a>
         </Link>
         <Link
           href="https://github.com/Isaac-Tait/starshipForSale/discussions"
