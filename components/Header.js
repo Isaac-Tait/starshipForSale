@@ -4,8 +4,8 @@ import Link from 'next/link';
 import starship from '../public/starship.png';
 const Header = () => {
   return (
-    <div className="grid grid-cols-2">
-      <div className="w-1/3 pl-2 pt-2 flex flex-row">
+    <div className="grid justify-center md:grid-cols-2">
+      <div className="md:w-1/3 pl-2 pt-2 flex flex-row">
         <Image
           alt="starship for sale"
           src={starship}
@@ -16,7 +16,7 @@ const Header = () => {
           <h1 className="text-3xl font-semibold text-center">For Sale</h1>
         </div>
       </div>
-      <div className="flex justify-end mr-2 space-x-4 text-xs italic">
+      <div className="flex justify-between md:justify-end md:mr-2 md:space-x-4 text-xs md:text-base italic md:font-normal">
         <Link
           href="https://community.starshipfor.sale"
           className="text-red-400 hover:underline hover:text-yellow-600"

@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <div>
-      <div className="flex items-center justify-between text-xs mx-1">
+      <div className="flex items-center justify-between text-xs px-1 bg-slate-300">
         <div className="text-slate-500 w-1/3">
           <p className="">
             ©{new Date().getFullYear()} - Built with&nbsp;

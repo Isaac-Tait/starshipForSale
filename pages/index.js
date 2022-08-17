@@ -7,7 +7,7 @@ const Index = () => (
     <div>
       <Header />
     </div>
-    <div className="max-w-6xl mx-auto bg-slate-200 rounded-lg px-2">
+    <div className="max-w-6xl md:mx-auto bg-slate-200 rounded-lg px-2 mt-4 mx-1 ">
       <h1 className="uppercase font-bold">Starship for sale!!!!</h1>
 
       <div className="text-white">
@@ -32,7 +32,7 @@ const Index = () => (
 
     <hr />
 
-    <div className="w-4/5 mx-auto pt-10">
+    <div className="w-4/5 mx-auto py-10">
       <Comments />
     </div>
 
