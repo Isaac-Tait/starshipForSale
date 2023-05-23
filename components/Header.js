@@ -19,11 +19,11 @@ const Header = () => {
       </div>
       <div className="flex justify-between md:justify-end md:mr-2 md:space-x-4 text-xs md:text-base italic md:font-normal">
         <Link
-          href="https://community.starshipfor.sale"
+          href="https://wormwoodsaga.com"
           className="text-red-400 hover:underline hover:text-yellow-600"
         >
           <a target="_blank" rel="noopener noreferrer">
-            Forum
+            My Novel
           </a>
         </Link>
         <Link
